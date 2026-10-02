@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "subtext": {
+      "type": "http",
+      "url": "https://mcp.subtext.wiki/mcp"
+    }
+  }
+}

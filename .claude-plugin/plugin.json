@@ -1,0 +1,27 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "subtext-wiki",
+  "displayName": "Subtext Wiki",
+  "description": "Connects Claude Code to Subtext, your personal context graph — the people, organisations, projects and topics that make up your working life. Bundles the Subtext MCP server with the skill that teaches Claude to read from your context before answering and write back to it as things come up.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Josephmark",
+    "email": "hello@josephmark.com.au",
+    "url": "https://subtext.wiki/"
+  },
+  "homepage": "https://subtext.wiki/",
+  "repository": "https://github.com/whoisjosephmark/subtext-plugin",
+  "license": "MIT",
+  "keywords": [
+    "subtext",
+    "context",
+    "memory",
+    "knowledge-graph",
+    "notes"
+  ],
+  "icon": "./logo.png",
+  "documentationUrl": "https://subtext.wiki/docs/",
+  "supportUrl": "https://subtext.wiki/docs/troubleshooting.html",
+  "privacyPolicyUrl": "https://subtext.wiki/privacy.html",
+  "termsOfServiceUrl": "https://subtext.wiki/terms.html"
+}
