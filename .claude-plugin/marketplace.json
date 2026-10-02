@@ -1,0 +1,24 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "josephmark",
+  "description": "Plugins from Josephmark, an Australian design and technology studio.",
+  "owner": {
+    "name": "Josephmark",
+    "email": "hello@josephmark.com.au",
+    "url": "https://josephmark.com.au/"
+  },
+  "plugins": [
+    {
+      "name": "subtext-wiki",
+      "description": "Connects Claude Code to Subtext, your personal context graph — the people, organisations, projects and topics that make up your working life. Bundles the Subtext MCP server with the skill that teaches Claude to read from your context before answering and write back to it as things come up.",
+      "author": {
+        "name": "Josephmark",
+        "email": "hello@josephmark.com.au",
+        "url": "https://subtext.wiki/"
+      },
+      "category": "productivity",
+      "source": "./",
+      "homepage": "https://subtext.wiki/"
+    }
+  ]
+}

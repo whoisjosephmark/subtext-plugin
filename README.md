@@ -7,7 +7,7 @@ This plugin connects Claude to it.
 Installing gives you two things at once:
 
 - **The Subtext MCP connection** (`https://mcp.subtext.wiki/mcp`), which is how Claude
-  reads and writes your graph: briefs, search, page compilation, notes and edits.
+  reads and writes your graph: briefs, search, page compilation and edits.
 - **The Subtext skill**, which is how Claude knows what to do with that connection —
   pull your context before it asks or assumes, and write things down as they come up
   rather than only when told to.
@@ -18,7 +18,8 @@ it, Claude works from your context by default.
 ## Install
 
 ```
-/plugin install subtext-wiki
+/plugin marketplace add whoisjosephmark/subtext-plugin
+/plugin install subtext-wiki@josephmark
 ```
 
 Then connect your account when Claude prompts for authorisation. You'll need a Subtext
@@ -26,9 +27,9 @@ account — sign up at [subtext.wiki](https://subtext.wiki/).
 
 ## What it connects to, and what it sends
 
-This plugin ships two files and nothing else: a skill and a single MCP server entry.
-It has no hooks, no commands, no agents, no scripts and no bundled executables, so it
-runs no code of its own on your machine and installs no packages.
+This plugin ships a skill, a single MCP server entry and a marketplace manifest, and
+nothing else. It has no hooks, no commands, no agents, no scripts and no bundled
+executables, so it runs no code of its own on your machine and installs no packages.
 
 The one network destination is the Subtext MCP server:
 
